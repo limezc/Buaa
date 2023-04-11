@@ -5,12 +5,10 @@ import requests
 
 
 def post_data(title, name, content):
-    with open("api.txt", "r") as f:
-        api = f.readline().strip()
     requests.post(
         "https://www.autodl.com/api/v1/wechat/message/push",
         json={
-                "token": api,
+                "token": "",
                 "title": title,
                 "name": name,
                 "content": content
