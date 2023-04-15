@@ -1,3 +1,3 @@
 #!/usr/bin/sh
 cd /root/project/buaa/wifi
-python login.py
+/root/miniforge3/bin/python login.py
