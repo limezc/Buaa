@@ -66,7 +66,7 @@ def main():
     password = ""
 
     reconnect_times = 0
-    reconnect_times_threshold = 10
+    reconnect_times_threshold = 20
 
     while 1:
         if isNetChainOK():
@@ -81,7 +81,7 @@ def main():
             reconnect_times += 1
             print('error! \n' + ret['reason'])
             
-        time.sleep(60)
+        time.sleep(120)
 
         if reconnect_times > reconnect_times_threshold:
             time.sleep(600000000)
