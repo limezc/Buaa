@@ -36,9 +36,6 @@ python login.py [option] [username] [password]
 python login.py [option]
 ```
 
-### 3.参考脚本
-[ywz978020607](https://github.com/ywz978020607/History/tree/master/cv%E7%A0%94%E7%A9%B6%E7%94%9F%E6%97%A5%E5%B8%B8Lab/pySrun4k_BeihangLogin-master)
-
 
 ### 3.最新用法
 补充login.py和logout.py相关用户名和密码
