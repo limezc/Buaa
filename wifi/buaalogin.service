@@ -1,0 +1,13 @@
+[Unit]
+Description=BUAA Auto Login Service
+After=network.target
+
+[Service]
+Environment=PYTHONUNBUFFERED=1
+StandardOutput=append:/var/log/buaalogin.log
+Type=simple
+Restart=on-failure
+RestartSec=5s
+ExecStart=/root/project/buaa/wifi/run.sh
+[Install]
+WantedBy=multi-user.target
