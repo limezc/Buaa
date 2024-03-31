@@ -129,3 +129,6 @@ dmypy.json
 .pyre/
 
 *.txt
+
+compress_result/
+decompress_result/
